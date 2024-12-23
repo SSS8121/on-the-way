@@ -1,0 +1,165 @@
+*{
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+  }
+  body{
+      height: 400vh;
+      width: 100%;
+      background-color: pink;
+       background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  header{
+      display: flex;
+      justify-content: space-between;
+      background-color: skyblue;
+      height: 120px;
+      padding: 20px;
+      border-bottom-right-radius: 100px;
+      border-bottom-left-radius: 100px;
+      position: sticky;
+  }
+  .logo{
+      font-size: 40px;
+      margin: 30px;
+      margin-top: 20px;
+      color:blue;
+      margin-left: 60px;
+  }
+  .menu{
+      display: flex;
+
+      margin: 40px;
+      margin-top:30px ;
+      gap: 30px;
+      list-style: none;
+      align-items: center;
+      font-size: 25px;
+  }
+  li a{
+      text-decoration: none;
+      color: blue;
+  }
+  #banner{
+      display: flex;
+      color: white;
+  }
+  .circle{
+      display: flex;
+      border-radius: 150px;
+      margin-top: 70px;
+      /* clip-path: ellipse(50% 39% at 52% 46%); */
+      /* color: ; */
+      background-color: skyblue;
+      
+  }
+  .left img{
+      height: 300px;
+      width: 300px;
+      margin: 50px;
+      border-radius: 50%;
+      margin-top:100px ;
+  }
+  .right{
+      margin: 150px;
+   
+  }
+  .name{
+      font-size: 50px;
+      background: linear-gradient(45deg,#fd0000,rgb(255,0,255),aqua);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+   
+  }
+  .course{
+      margin-top: 20px;
+      font-size:20px ;
+      height: 30px;
+      width: 400px;
+      padding-top: 5px;
+      text-align: center;
+    background-color: blue;
+      color:pink;
+      border-radius: 30px;
+  }
+  .description{
+      font-size: 20px;
+      margin-top: 35px;
+      color: blueviolet;
+      
+  }
+  .click{
+      margin: 50px 0px 0px 0px ;
+  
+  }
+  .click button{
+      background-color: blue;
+      padding: 20px 50px;
+      color: white;
+      border-radius: 20px;
+      border: 1px solid white;
+      margin-right: 100px;
+      box-shadow: 2px 2px 3px white;
+  }
+  .secondpart{
+      height: 600px;
+      background-color: skyblue;
+      border-radius: 150px;
+  }
+  .about{
+      color: white;
+      text-align: center;
+      margin-top: 80px;
+      font-size: 50px;
+      background: linear-gradient(70deg,#fd0000,#ff00ff,aqua);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .sai img{
+      height: 300px;
+      width: 300px;
+      margin-top: 50px;
+      border-radius:50%;
+      margin-left: 600px;
+  }
+  .aboutme{
+      color: white;
+      font-size: 30px;
+     text-align: center;
+     margin-top: 40px;
+     color:blue;
+     
+  }
+  .thirdpart{
+      background-color: skyblue;
+      border-radius: 150px;
+      margin-top: 80px;
+      height: 500px;
+  }
+  .skills{
+      text-align: center;
+      font-size: 70px;
+      margin: 30px;
+      background: linear-gradient(70deg,#fd0000,#ff00ff,aqua);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .images{
+      display: grid;
+      grid-template-columns: repeat(4,2fr);
+      gap: 30px;
+      margin-top: 80px;
+  }
+  .projects{
+      text-align: center;
+      font-size: 70px;
+      margin-top: 60px;
+      margin-bottom: 50px;
+      background: linear-gradient(70deg,#fd0000,#ff00ff,aqua);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
